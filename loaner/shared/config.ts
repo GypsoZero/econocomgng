@@ -82,7 +82,7 @@ export const CHROME_ENDPOINTS: EnvironmentsVariable = {
  * NOTE: Each key must be on a single-line!
  */
 export const CHROME_PUBLIC_KEYS: EnvironmentsVariable = {
-  prod: '{PROD_CHROME_KEY_PASTE}',
+  prod: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk9qSsTn+JLCz4PS5ngwx+8ubL2OitOhTmTGMOEzFr4vTSbG5LFODtGmMSPp76EaKa8xL+tGKGunlHW4iso+DTDhM2+R1+HH7b5C0sFLEBBBVidmj7EkKSInS1OecKFsvoyYkQ9j+XzgzxsuJe1n67LKvIUcpo65PBA/SDcDPbSRK+scfdeTSzu7vITNshxKVXWdBr5BfQQWtQLKM92P2ssvRgcmyqXWjlYocU/XRYn1GAhkkFXD9KzX0KCULrr/pkps2Lar5QriBCKWIOBMt+sZi46SM1Zl45gPRw0HeQ2GGOJh7V52DDVIyAk1uRcOhreT6LyPldzoyHGpcUiKwDQIDAQAB',
   qa: '{QA_CHROME_KEY}',
   dev: '{DEV_CHROME_KEY}',
 };
@@ -239,11 +239,11 @@ export const HEARTBEAT: HeartbeatConfiguration = {
 export const TROUBLESHOOTING_INFORMATION =
 'Contact your IT department for assistance.';
 /** Phone number of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_PHONE = ['{ITPHONENUMBER}'];
+export const IT_CONTACT_PHONE = [''];
 /** Website of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_WEBSITE = '{ITWEBSITE}';
+export const IT_CONTACT_WEBSITE = '';
 /** Email of IT; Placed on Manage/troubleshoot page. */
-export const IT_CONTACT_EMAIL = '{ITEMAIL}';
+export const IT_CONTACT_EMAIL = '';
 /** Failure message after 3 failure prompts occur. */
 export const FAILURE_MESSAGE = `Since this has failed a couple of times the
 application will now quit. If the issue persists contact your
